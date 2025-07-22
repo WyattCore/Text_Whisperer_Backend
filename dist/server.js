@@ -25,6 +25,7 @@ if (!api_key) {
 app.get('/', async (req, res) => {
     try {
         res.send({
+            "request": req,
             "selected_text": "/selected_text",
             "chatGPT Response": "/chat_output"
         });
