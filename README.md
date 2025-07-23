@@ -1,6 +1,6 @@
 # Text_Whisperer Backend
 
-I implemented this backend using Node.js and Express. I used Render to deploy my backend, it is live at https://text-whisperer-backend.onrender.com/chat_output
+I implemented this backend using Node.js and Express. I used Render to deploy my backend, it is live at https://text-whisperer-backend.onrender.com
 
 It is mainly used for communication with the frontend, but also shows your chat history from the "/chat_output" path.
 
@@ -9,6 +9,7 @@ The "/selected_text" path allows you to see the text you selected (this was more
 So the available paths are:
 1) /chat_output
 2) /selected_text
+3) /
 
 
 
