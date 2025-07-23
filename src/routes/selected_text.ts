@@ -22,7 +22,7 @@ router.post('/', async(req:any, res:any) => {
 
 
 router.get('/', (req:any, res:any) =>{
-    res.send({selected_text: get_selected_input(), "src_url": get_src_url()  })
+    res.send({selected_text: get_selected_input(), src_url: get_src_url()  })
 });
 
 export default router;  

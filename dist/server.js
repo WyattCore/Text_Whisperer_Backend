@@ -25,13 +25,13 @@ if (!api_key) {
 app.get('/', async (req, res) => {
     try {
         res.send({
-            "request": req,
             "selected_text": "/selected_text",
             "chatGPT Response": "/chat_output"
         });
     }
     catch (error) {
         console.log("error at welcome: ", error);
+        res.status(500).json({ error: "Internal Server Error" });
     }
 });
 app.listen(PORT, () => {
