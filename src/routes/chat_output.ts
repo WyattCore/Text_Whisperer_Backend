@@ -1,7 +1,7 @@
 import express, { response, Router } from 'express';
 import OpenAI from 'openai';
 import { get_selected_input, get_src_url } from '../selected_text-state';
-import { getSelectionRange } from '@testing-library/user-event/dist/utils';
+// import { getSelectionRange } from '@testing-library/user-event/dist/utils';
 import { Content } from 'openai/resources/containers/files/content';
 import { ChatCompletionMessageParam, ChatCompletionRunner } from "openai/resources/chat/completions";
 
