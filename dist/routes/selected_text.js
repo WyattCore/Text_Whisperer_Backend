@@ -25,6 +25,6 @@ router.post('/', async (req, res) => {
     }
 });
 router.get('/', (req, res) => {
-    res.send({ selected_text: (0, selected_text_state_1.get_selected_input)(), "src_url": selected_text_state_1.get_src_url });
+    res.send({ selected_text: (0, selected_text_state_1.get_selected_input)(), "src_url": (0, selected_text_state_1.get_src_url)() });
 });
 exports.default = router;
