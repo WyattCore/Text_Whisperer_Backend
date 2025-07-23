@@ -6,10 +6,9 @@ It is mainly used for communication with the frontend, but also shows your chat 
 
 The "/selected_text" path allows you to see the text you selected (this was more for debugging purposes).
 
-So the available paths are 
-1) /
-2) /chat_output
-3) /selected_text
+So the available paths are:
+1) /chat_output
+2) /selected_text
 
 
 
