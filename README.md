@@ -1,6 +1,6 @@
 # Text_Whisperer Backend
 
-I implemented this backend using Node.js and Express. I used Render to deploy my backend, it is live at https://text-whisperer-backend.onrender.com/chat_outputs
+I implemented this backend using Node.js and Express. I used Render to deploy my backend, it is live at https://text-whisperer-backend.onrender.com/chat_output
 
 It is mainly used for communication with the frontend, but also shows your chat history from the "/chat_output" path.
 
