@@ -13,7 +13,7 @@ So the available paths are:
 
 
 ## If you wish to run the backend locally or if the link is not working:
-
+# You will have to contact me to get the API key @wyatt.core33@gmail.com
 1) Download the repository as a zip file.
 2) Unzip the file and open a terminal at that location.
 4) Run "npm start".
